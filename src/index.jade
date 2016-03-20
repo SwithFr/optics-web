@@ -6,13 +6,20 @@ html( lang='fr' )
         title OPTICS iOS App to share easily pictures
         link( rel="stylesheet", href="./css/main.css" )
     body
-        main
+        header
             .wrapper
-                object.logo(type="image/svg+xml",data="./img/logo.svg")
-                h1.main-title Optics
-                p.main-description Meet people and share something great.
-                p.main-info Coming soon
-                
-            p.author Made by 
+                object.logo( type="image/svg+xml",data="./img/logo.svg" )
+                h1.header-title Optics
+                p.header-description Meet people and share something great.
+                p.header-info Coming soon
+
+        main
+            h2 Présentation
+            .row
+                img.preview.preview--left( src="./img/picture-detail-view.png", alt="Aperçu de l'application" )
+                p.preview-description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa est, lobortis ac justo eget, maximus maximus erat. Vivamus sagittis leo non tristique laoreet. Aenean pellentesque ante quis ante malesuada aliquam. Ut mattis eget orci sit amet semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa est, lobortis ac justo eget, maximus maximus erat. Vivamus sagittis leo non tristique laoreet. Aenean pellentesque ante quis ante malesuada aliquam. Ut mattis eget orci sit amet semper.
+
+        footer
+            p.author Made by
                 a( href="http://www.swith.fr" ) Swith
         
